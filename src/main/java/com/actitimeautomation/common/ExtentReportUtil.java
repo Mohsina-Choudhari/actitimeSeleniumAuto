@@ -12,7 +12,8 @@ public class ExtentReportUtil extends BaseClass {
 
     public static Map<String, ExtentTest> objectMap = new HashMap<>();
 
-    public static ExtentTest getTest(){
+    public static ExtentTest getTest()
+    {
         return objectMap.get("extentTest");
     }
 
